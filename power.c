@@ -14,7 +14,7 @@ int main()
         --K;
     }
 
-    printf("OUTPUT:%lld",result);
+    printf("OUTPUT:\n%lld",result);
 
     return 0;
 }
