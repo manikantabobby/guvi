@@ -1,21 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int base, exponent;
+    int N,K;
     long long result = 1;
 
-    printf("Input: ");
-    scanf("%d", &base);
+    printf("INPUT:");
+    scanf("%d", &N);
+    scanf("%d", &K);
 
-    printf("\t");
-    scanf("%d", &exponent);
-
-    while (exponent != 0)
+    while (K!=0)
     {
-        result =result*exponent;
-        --exponent;
+        result=result*N;
+        --K;
     }
 
-    printf("Output:%lld",result);
+    printf("OUTPUT:%lld",result);
 
     return 0;
+}
