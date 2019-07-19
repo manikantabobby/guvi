@@ -7,7 +7,7 @@ int main()
     for(i=N+1;i<Q;i++)
     {
         if(i%2==1)
-        printf("\t%d",i);
+        printf("%d ",i);
         
     }
     return 0;
